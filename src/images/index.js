@@ -1,0 +1,80 @@
+const images = {
+  logo: {
+    notification: require('./logo/notification_logo.png'),
+  },
+  loading: {
+    default: require('./loading/loading.gif'),
+  },
+  im: {
+    defaultAvatar: require('./easemob/defaultAvatar.png'),
+  },
+
+  icon: {
+    topIconBack: require('./icon/top_icon_back.png'),
+
+    answerAdoptTag: require('./icon/answer_adopt_tag.png'),
+    answerAdopt: require('./icon/answer_adopt.png'),
+    arrowDown: require('./icon/arrow_down.png'),
+    arrowLeft: require('./icon/arrow_left.png'),
+    arrowRight: require('./icon/arrow_right.png'),
+    arrowUp: require('./icon/arrow_up.png'),
+    btnAddPhoto: require('./icon/btn_addphoto.png'),
+    btnAddPhotoDelete: require('./icon/btn_addphoto_delete.png'),
+    btnAsk: require('./icon/ask_btn.png'),
+    checkboxBlue: require('./icon/checkbox_blue.png'),
+    checkboxBlueEmpty: require('./icon/checkbox_blue_empty.png'),
+    checkboxYellow: require('./icon/checkbox_yellow.png'),
+    checkboxYellowEmpty: require('./icon/checkbox_yellow_empty.png'),
+    close: require('./icon/close.png'),
+    countAccount: require('./icon/count_account.png'),
+    countAdopt: require('./icon/count_adopt.png'),
+    countQuestion: require('./icon/count_question.png'),
+    countUnpay: require('./icon/count_unpay.png'),
+    iconDial: require('./icon/icon_dial.png'),
+    iconInfo: require('./icon/icon_info.png'),
+    iconMoney: require('./icon/icon_money.png'),
+    iconSkills: require('./icon/icon_skills.png'),
+    iconTime: require('./icon/icon_time.png'),
+    iconVerifyFail: require('./icon/icon_verify_fail.png'),
+    iconVerifyProcess: require('./icon/icon_verify_process.png'),
+    iconVerifySucceed: require('./icon/icon_verify_succeed.png'),
+    idCard: require('./icon/id_card.png'),
+    infoIconVerify: require('./icon/info_icon_verify.png'),
+    listEmptyIcon: require('./icon/list_empty_icon.png'),
+    listPicIcon: require('./icon/list_pic_icon.png'),
+    loading: require('./icon/loading.gif'),
+    locationIcon: require('./icon/location_icon.png'),
+    loginLogo: require('./icon/login_logo.png'),
+    questionSent: require('./icon/question_sent.png'),
+    tabIcon1Active: require('./icon/tab_icon_1_active.png'),
+    tabIcon1Normal: require('./icon/tab_icon_1_normal.png'),
+    tabIcon2Active: require('./icon/tab_icon_2_active.png'),
+    tabIcon2Normal: require('./icon/tab_icon_2_normal.png'),
+    tabIcon3Active: require('./icon/tab_icon_3_active.png'),
+    tabIcon3Normal: require('./icon/tab_icon_3_normal.png'),
+    tabIcon4Normal: require('./icon/tab_icon_4_normal.png'),
+    tabIcon4Active: require('./icon/tab_icon_4_active.png'),
+    thumbs: require('./icon/thumbs.png'),
+    toastError: require('./icon/toast_error.png'),
+    toastWarning: require('./icon/toast_warning.png'),
+    workerCard: require('./icon/worker_card.png'),
+    moneyIcon: require('./icon/info_icon_5.png'),
+  },
+
+  img: {
+    aboutUs: require('./img/about_us.png'),
+    toastAlipayImg: require('./img/toast_alipay_img@2x.png'),
+  },
+
+  step: {
+    step1: require('../images/step/step_1.png'),
+    step2: require('../images/step/step_2.png'),
+    step2Gray: require('../images/step/step_2_gray.png'),
+    step3: require('../images/step/step_3.png'),
+    step3Gray: require('../images/step/step_3_gray.png'),
+    stepOK: require('../images/step/step_ok.png'),
+  },
+
+};
+
+export default images;

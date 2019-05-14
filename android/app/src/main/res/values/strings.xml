@@ -1,0 +1,4 @@
+<resources>
+    <!--应用程序名请前往'./app/build.gradle#buildTypes'中设置-->
+    <!--<string name="app_name">水稻技师版</string>-->
+</resources>

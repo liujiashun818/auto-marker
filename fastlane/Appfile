@@ -1,0 +1,5 @@
+json_key_file "" # Path to the json secret file - Follow https://github.com/fastlane/supply#setup to get one
+package_name "com.shuidao.daotian.artificer" # e.g. com.krausefx.app
+
+apple_id "duzliang@gmail.gmail" # Your Apple email address
+team_id "K89X7SHFGS" # Developer Portal Team ID

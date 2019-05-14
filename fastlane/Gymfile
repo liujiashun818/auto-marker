@@ -1,0 +1,20 @@
+# For more information about this configuration visit
+# https://github.com/fastlane/fastlane/tree/master/gym#gymfile
+
+# In general, you can use the options available
+# fastlane gym --help
+
+# Remove the # in front of the line to enable the option
+
+# scheme "Example"
+
+# sdk "iphoneos8.0"
+
+clean true
+
+output_directory "./build"    # store the ipa in this folder
+
+export_options(
+  method: "ad-hoc",
+  thinning: "<thin-for-all-variants>"
+)
